@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Massirer</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!--INTERLIGANDO CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="interface">
+        <!-- LOGO -->
+        <a href="#" class="logo-link">
+            <img src="images/Logo W.png" alt="Logo William Massirer">
+        </a>
+
+        <!-- MENU -->
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+
+        <!-- BOTÃO CONTATO -->
+        <div class="btn-contato">
+            <a href="#contato">
+                <button>Contato</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- BOTÃO MENU MOBILE -->
+    <div class="btn-abrir-menu" id="btn-menu">
+        <i class="bi bi-list"></i>
+    </div>
+
+    <!-- MENU MOBILE -->
+    <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+            <i class="bi bi-x"></i>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="overlay-menu" id="overlay-menu"></div>
+</header>
+
+<main>
+    <section id="inicio" class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>Analista de Dados<span>.</span></h1>
+                    <p>Sou Analista de Dados na Syonet, cursando Sistemas de Informação na Unisinos, com formação técnica em Desenvolvimento de Sistemas pelo SENAC e Eletricista Industrial com Ênfase em Automação pelo SENAI. Atualmente, estou me aperfeiçoando em Java e em tecnologias voltadas ao desenvolvimento backend e à análise de dados.</p>
+                    <div class="btn-contato">
+                        <a href="#contato">
+                            <button>Entre em contato</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="img-topo-site"> 
+                    <img src="images/logo.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="especialidades" class="especialidades">
+        <div class="interface">
+            <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+        </div>
+        <div class="flex">
+            <div class="especialidades-box">
+                <i class="bi bi-filetype-sql"></i>
+                <h3>Análise de Dados</h3>
+                <p>Domínio em SQL e otimização de consultas, utilizando EXPLAIN para analisar planos de execução e aprimorar a performance. Experiência em modelagem de dados e uso de funções avançadas para gerar insights precisos e eficientes.</p>
+            </div>
+
+            <div class="especialidades-box">
+                <i class="bi bi-filetype-java"></i>
+                <h3>Desenvolvimento de Sistemas em Java (em aprendizado)</h3>
+                <p>Atualmente me aperfeiçoando em Java, focando na criação de aplicações robustas e integradas a bancos de dados, com atenção a boas práticas de programação e desempenho.</p>
+            </div>
+
+            <div class="especialidades-box">
+                <i class="bi bi-filetype-js"></i>
+                <h3>Desenvolvimento Web Front-end (HTML/CSS/JS básico)</h3>
+                <p>Criação de sites e portfólios, com atenção a design responsivo, interatividade e usabilidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img src="images/sobre atual.jpg" alt="">
+                </div>
+                <div class="txt-sobre">
+                    <h2>MUITO PRAZER, <span>SOU WILLIAM MASSIRER</span></h2>
+                    <p>Sou Analista de Dados na Syonet e curso Sistemas de Informação na Unisinos. Tenho formação técnica em Desenvolvimento de Sistemas (SENAC) e em Eletricista Industrial com Ênfase em Automação (SENAI). Essas experiências me deram uma base sólida tanto em software quanto em processos industriais e tecnológicos.</p>
+                    <p>Atualmente, estou focado em aprimorar minhas habilidades em Java, desenvolvimento backend e análise de dados. Gosto de aprender coisas novas, entender como as tecnologias se conectam e aplicá-las de forma prática no dia a dia.</p>
+
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/william-massirer-21192b245/" target="_blank">
+                        <button><i class="bi bi-linkedin"></i></button>
+                        </a>
+                        <a href="https://github.com/William-Massirer" target="_blank">
+                        <button><i class="bi bi-github"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="portfolio">
+        <div class="interface">
+            <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url(images/Projeto\ 1.png);">
+                    <div class="overlay">Meu Portfólio</div>
+                </div>
+                <div class="img-port" style="background-image: url(images/desenvolvimento.png);">
+                    <div class="overlay">Projeto 2</div>
+                </div>
+                <div class="img-port" style="background-image: url(images/desenvolvimento.png);">
+                    <div class="overlay">Projeto 3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="formulario">
+    <div class="interface">
+        <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+        <form action="https://formspree.io/f/xnngebzr" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome:" required>
+            <input type="email" name="email" placeholder="Seu E-Mail:" required>
+            <input type="text" name="celular" placeholder="Seu Celular:">
+            <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+            <div class="btn-enviar">
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="interface">
+    
+    <!-- Linha 1: Logo + botões de redes sociais -->
+    <div class="line-footer flex" style="justify-content: space-between; align-items: center;">
+      
+      <!-- Logo clicável -->
+      <div class="logo-footer">
+        <a href="#inicio">
+          <img src="images/Logo W.png" alt="Logo William Massirer">
+        </a>
+      </div>
+
+      <!-- Botões de rede social -->
+      <div class="btn-social">
+        <a href="https://www.linkedin.com/in/william-massirer-21192b245/" target="_blank">
+          <button><i class="bi bi-linkedin"></i></button>
+        </a>
+        <a href="https://github.com/William-Massirer" target="_blank">
+          <button><i class="bi bi-github"></i></button>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Linha 2: E-mail / contato -->
+    <div class="line-footer borda" style="margin-top: 20px; padding-top: 10px; border-top: 2px solid #002aff;">
+      <p>
+        <i class="bi bi-envelope"></i>
+        <a href="mailto:williamedumassirer@gmail.com">williamedumassirer@gmail.com</a>
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- SCRIPT MENU MOBILE -->
+<script>
+  const btnMenu = document.getElementById('btn-menu');
+  const menuMobile = document.getElementById('menu-mobile');
+  const overlay = document.getElementById('overlay-menu');
+
+  btnMenu.addEventListener('click', () => {
+    menuMobile.classList.add('abrir');
+    overlay.classList.add('mostrar');
+  });
+
+  document.querySelector('.btn-fechar').addEventListener('click', () => {
+    menuMobile.classList.remove('abrir');
+    overlay.classList.remove('mostrar');
+  });
+
+  overlay.addEventListener('click', () => {
+    menuMobile.classList.remove('abrir');
+    overlay.classList.remove('mostrar');
+  });
+</script>
+
+</body>
+</html>
